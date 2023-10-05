@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-	char msg[]= "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"
+	char msg[]= "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 	write(1, msg, sizeof(message) - 1);
 	return (1);
 }
